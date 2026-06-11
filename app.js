@@ -19,7 +19,7 @@ function renderPost(post) {
   const text = (post.text || "").slice(0, MAX_LEN);
   return `
     <div class="post">
-      <div class="meta"><span class="hash">#${post.id}</span> ${escapeHtml(post.date)} · ${text.length}/${MAX_LEN}</div>
+      <div class="meta"><span class="hash">#${escapeHtml(String(post.id))}</span> ${escapeHtml(post.date)} · ${text.length}/${MAX_LEN}</div>
       <div class="text">${highlight(text)}</div>
     </div>`;
 }
