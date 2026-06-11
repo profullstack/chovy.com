@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>chovy@chovy.com:~$</title>
+  <meta name="description" content="chovy.com — short thoughts, terminal style. Nothing over 240 characters." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>%E2%96%B6</text></svg>" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="terminal" id="terminal">
+    <header class="term-header">
+      <div class="dots"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span></div>
+      <div class="title">chovy@chovy.com: ~/feed</div>
+    </header>
+
+    <section class="term-body" id="output">
+      <p class="line"><span class="prompt">chovy@chovy.com</span>:<span class="path">~</span>$ <span class="cmd">whoami</span></p>
+      <p class="line muted">chovy — short thoughts, terminal style. nothing over 240 chars.</p>
+      <p class="line"><span class="prompt">chovy@chovy.com</span>:<span class="path">~</span>$ <span class="cmd">cat feed.log</span></p>
+      <div id="feed"><!-- posts injected here --></div>
+      <p class="line" id="cursor-line"><span class="prompt">chovy@chovy.com</span>:<span class="path">~</span>$ <span class="cursor">█</span></p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

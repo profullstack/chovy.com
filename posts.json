@@ -1,0 +1,17 @@
+[
+  {
+    "id": 3,
+    "date": "2026-06-11",
+    "text": "Shipped a terminal-style microblog today. Posts capped at 240 chars. If I can't say it in a tweet, it's a blog post, and nobody reads those."
+  },
+  {
+    "id": 2,
+    "date": "2026-06-10",
+    "text": "Hot take: most config files are just programs that ran out of courage."
+  },
+  {
+    "id": 1,
+    "date": "2026-06-09",
+    "text": "Started keeping my thoughts under 240 chars. Brevity is a feature, not a constraint. $ echo \"hello world\""
+  }
+]
