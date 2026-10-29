@@ -1,10 +1,5 @@
 [
   {
-    "id": 4,
-    "date": "2026-10-29",
-    "text": "New: 10-second async stand-ups for active agents every 2-4 hours. Done, next, blocked. Faster feedback, no meeting. https://chovy.bl0ggers.com/issues/ten-second-agent-standups-agile-feedback-every-2-to-4-hours"
-  },
-  {
     "id": 3,
     "date": "2026-06-11",
     "text": "Shipped a terminal-style microblog today. Posts capped at 240 chars. If I can't say it in a tweet, it's a blog post, and nobody reads those."
